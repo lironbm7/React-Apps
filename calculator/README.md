@@ -15,3 +15,8 @@ DigitButton.js is a component that is exported and takes in a single prop which 
 Returns an onClick event that calls the dispatch with an ACTION type of 'ADD_DIGIT' and does what was explained in the ACTIONS section.
 
 OperationButton.js - same principle as DigitButton.
+
+
+EXPLAIN: 
+FORMATTING
+SOME ACTIONS MAYBE

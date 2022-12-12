@@ -20,3 +20,7 @@ I set a 'checked' state for the answers as well, using the useState hook, which 
 In the label of the radio buttons, we give the htmlFor attribute the value of the button's ID (q1-option for ex.)
 
 The data.js file in the ./src/database/ folder will be a questions placeholder in JSON syntax.
+The purpose of the hard coded placeholder is to create the iteration over every database element in order to display every existing question in the Questions.js component.
+For this, I used useEffect hook and call the data to be logged in to the console (later to be rendered).
+
+For the display of the questions from the placeholder database, I use the .map method inside of the <ul> tag to map the 'question.options' array of answers and pass two parameters into it, question and index value. An arrow function to create the <li> tag that

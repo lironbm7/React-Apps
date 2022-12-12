@@ -2,26 +2,31 @@ import '../styles/App.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+// Component imports
+import Main from './Main'
+import Quiz from './Quiz'
+import Result from './Result'
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Root Element</div>
+    element: <Main />
   },
   {
     path: '/quiz',
-    element: <div>Quiz Element</div>
+    element: <Quiz />
   },
   {
     path: '/result',
-    element: <div>Result Element</div>
+    element: <Result />
   }
 ])
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 

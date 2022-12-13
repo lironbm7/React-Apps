@@ -20,3 +20,6 @@ OperationButton.js - same principle as DigitButton.
 EXPLAIN: 
 FORMATTING
 SOME ACTIONS MAYBE
+
+TODO
+CSS
